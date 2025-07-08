@@ -19,7 +19,7 @@ async getMasonryAPR() {
                         length: 7
                     }
 
-The thing is that you haven't emitted all the supply during the genesis phase and you should use something like this to report correctly:
+The thing is that team hasn't emitted all the supply during the genesis phase and they should use something like this to report correctly:
 
 **const crocCirculating = await this.contracts.Treasury.getCrocCirculatingSupply();
 const seigniorageSaved = await this.contracts.Treasury.seigniorageSaved();
